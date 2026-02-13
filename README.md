@@ -10,6 +10,66 @@
 
 OpenPRoT is a vendor-neutral, open-source firmware stack for Platform Root of Trust devices, built in Rust under the CHIPS Alliance. It implements MCTP, SPDM, and PLDM protocols for secure platform management.
 
+## Architecture Overview
+
+```mermaid
+graph TD
+    subgraph Services
+        ATT["Attestation<br/>(SPDM)"]
+        FWU["Firmware Update<br/>(PLDM)"]
+        TEL["Telemetry"]
+    end
+
+    subgraph Protocols
+        SPDM["SPDM<br/>Security & Auth"]
+        PLDM["PLDM<br/>FW & Monitoring"]
+        MCTP["MCTP<br/>Transport"]
+    end
+
+    subgraph Platform
+        HAL["OpenPRoT HAL Traits<br/>(digest, ecdsa, cipher, mac, i2c, gpio)"]
+        HUB["Hubris OS"]
+        TOCK["Tock OS"]
+        LIN["Linux"]
+        RC["RustCrypto<br/>(software)"]
+    end
+
+    subgraph Hardware
+        ASP["ASPEED AST1060<br/>ARM Cortex-M4F"]
+        HACE["HACE Crypto<br/>Engine"]
+        SPI["SPI / I2C / UART"]
+    end
+
+    ATT --> SPDM
+    FWU --> PLDM
+    TEL --> PLDM
+    SPDM --> MCTP
+    PLDM --> MCTP
+    MCTP --> HAL
+    HAL --> HUB
+    HAL --> TOCK
+    HAL --> LIN
+    HAL --> RC
+    HUB --> ASP
+    ASP --> HACE
+    ASP --> SPI
+
+    style ATT fill:#509060,color:#fff
+    style FWU fill:#509060,color:#fff
+    style TEL fill:#509060,color:#fff
+    style SPDM fill:#4a70a0,color:#fff
+    style PLDM fill:#4a70a0,color:#fff
+    style MCTP fill:#4a70a0,color:#fff
+    style HAL fill:#a09825,color:#fff
+    style HUB fill:#804080,color:#fff
+    style TOCK fill:#804080,color:#fff
+    style LIN fill:#804080,color:#fff
+    style RC fill:#804080,color:#fff
+    style ASP fill:#a05050,color:#fff
+    style HACE fill:#a05050,color:#fff
+    style SPI fill:#a05050,color:#fff
+```
+
 ## Documentation
 
 The full guide is organized into topic-based pages under [`docs/`](docs/README.md):
