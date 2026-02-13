@@ -40,6 +40,7 @@ The MCTP layer establishes communication. Each component gets an Endpoint ID (EI
 Before accepting any firmware, the PRoT and update agent authenticate each other:
 
 ```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': {'actorBkg': '#4a70a0', 'actorTextColor': '#fff', 'actorBorder': '#3a5a80', 'noteBkgColor': '#2a3a2a', 'noteTextColor': '#c0c0c0', 'noteBorderColor': '#509060', 'signalColor': '#a0a0a0', 'signalTextColor': '#c0c0c0', 'sequenceNumberColor': '#fff'}}}%%
 sequenceDiagram
     participant UA as Update Agent
     participant P as PRoT
@@ -67,6 +68,7 @@ sequenceDiagram
 With trust established, the actual update proceeds:
 
 ```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': {'actorBkg': '#4a70a0', 'actorTextColor': '#fff', 'actorBorder': '#3a5a80', 'noteBkgColor': '#2a3a2a', 'noteTextColor': '#c0c0c0', 'noteBorderColor': '#509060', 'signalColor': '#a0a0a0', 'signalTextColor': '#c0c0c0', 'sequenceNumberColor': '#fff'}}}%%
 sequenceDiagram
     participant UA as Update Agent
     participant P as PRoT
@@ -104,6 +106,7 @@ sequenceDiagram
 After reboot, the verifier confirms the new firmware:
 
 ```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': {'actorBkg': '#4a70a0', 'actorTextColor': '#fff', 'actorBorder': '#3a5a80', 'noteBkgColor': '#2a3a2a', 'noteTextColor': '#c0c0c0', 'noteBorderColor': '#509060', 'signalColor': '#a0a0a0', 'signalTextColor': '#c0c0c0', 'sequenceNumberColor': '#fff'}}}%%
 sequenceDiagram
     participant V as Verifier
     participant P as PRoT (new firmware)

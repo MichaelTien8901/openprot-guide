@@ -96,6 +96,7 @@ task-slots = ["digest_server"]  # Binds DIGEST slot to digest_server task
 Hubris IPC is **synchronous message passing**:
 
 ```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': {'actorBkg': '#4a70a0', 'actorTextColor': '#fff', 'actorBorder': '#3a5a80', 'noteBkgColor': '#2a3a2a', 'noteTextColor': '#c0c0c0', 'noteBorderColor': '#509060', 'signalColor': '#a0a0a0', 'signalTextColor': '#c0c0c0', 'sequenceNumberColor': '#fff'}}}%%
 sequenceDiagram
     participant C as Client Task
     participant K as Kernel
