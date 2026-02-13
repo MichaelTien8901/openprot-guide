@@ -1,3 +1,9 @@
+---
+layout: default
+title: "5. Hardware Targets"
+nav_order: 6
+---
+
 # Hardware Targets
 
 ## ASPEED BMC Chips

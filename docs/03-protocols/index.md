@@ -1,3 +1,10 @@
+---
+layout: default
+title: "3. Protocols"
+nav_order: 4
+has_children: true
+---
+
 # Core Protocols
 
 The three protocols form a stack where **MCTP** is the foundation:

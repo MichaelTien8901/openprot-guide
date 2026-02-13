@@ -1,3 +1,9 @@
+---
+layout: default
+title: "11. Use Cases"
+nav_order: 12
+---
+
 # Use Cases
 
 ## 1. Data Center Server Security

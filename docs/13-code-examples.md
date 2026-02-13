@@ -1,3 +1,9 @@
+---
+layout: default
+title: "13. Code Examples"
+nav_order: 14
+---
+
 # Code Examples
 
 Real code from the OpenPRoT repositories demonstrating key APIs and patterns.

@@ -1,3 +1,9 @@
+---
+layout: default
+title: "2. Architecture"
+nav_order: 3
+---
+
 # Architecture Overview
 
 OpenPRoT uses a **layered architecture** with clear separation of concerns:

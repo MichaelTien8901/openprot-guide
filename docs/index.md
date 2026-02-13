@@ -1,3 +1,11 @@
+---
+layout: default
+title: Home
+nav_order: 1
+description: "OpenPRoT Guide - Open Platform Root of Trust firmware stack"
+permalink: /
+---
+
 # OpenPRoT: The Complete Guide
 
 **Open Platform Root of Trust — An open-source firmware stack for Platform Root of Trust devices**

@@ -1,3 +1,10 @@
+---
+layout: default
+title: "PLDM"
+parent: "3. Protocols"
+nav_order: 3
+---
+
 # PLDM — Firmware & Monitoring
 
 **Platform Level Data Model** (DMTF DSP0240/DSP0248/DSP0267)

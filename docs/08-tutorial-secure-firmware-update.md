@@ -1,3 +1,9 @@
+---
+layout: default
+title: "8. Tutorial: Secure FW Update"
+nav_order: 9
+---
+
 # Tutorial: Secure Firmware Update
 
 This tutorial walks through how the three core protocols — MCTP, SPDM, and PLDM — work together in a real scenario. By following these steps, you'll understand the complete lifecycle of a secure firmware update on an OpenPRoT device.

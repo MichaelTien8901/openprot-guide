@@ -1,3 +1,9 @@
+---
+layout: default
+title: "6. Getting Started"
+nav_order: 7
+---
+
 # Getting Started
 
 ## Prerequisites

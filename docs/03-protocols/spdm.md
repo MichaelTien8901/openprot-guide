@@ -1,3 +1,10 @@
+---
+layout: default
+title: "SPDM"
+parent: "3. Protocols"
+nav_order: 2
+---
+
 # SPDM — Security & Attestation
 
 **Security Protocol and Data Model** (DMTF DSP0274)

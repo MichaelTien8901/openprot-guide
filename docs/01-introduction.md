@@ -1,3 +1,9 @@
+---
+layout: default
+title: "1. Introduction"
+nav_order: 2
+---
+
 # Introduction
 
 ## What is OpenPRoT?

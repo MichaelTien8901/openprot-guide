@@ -1,3 +1,9 @@
+---
+layout: default
+title: "9. Services Deep Dive"
+nav_order: 10
+---
+
 # Services Layer Deep Dive
 
 ## Attestation Service

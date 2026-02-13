@@ -1,3 +1,9 @@
+---
+layout: default
+title: "15. Tock OS Guide"
+nav_order: 16
+---
+
 # Tock OS Guide
 
 Tock is a secure embedded operating system designed for running multiple untrusted applications on low-power microcontrollers. OpenPRoT includes a Tock platform implementation crate (currently a placeholder).

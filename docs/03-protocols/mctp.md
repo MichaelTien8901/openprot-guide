@@ -1,3 +1,10 @@
+---
+layout: default
+title: "MCTP"
+parent: "3. Protocols"
+nav_order: 1
+---
+
 # MCTP — Transport Layer
 
 **Management Component Transport Protocol** (DMTF DSP0236)

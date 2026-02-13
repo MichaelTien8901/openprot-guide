@@ -1,3 +1,9 @@
+---
+layout: default
+title: "12. Resources"
+nav_order: 13
+---
+
 # Resources & Community
 
 ## Links

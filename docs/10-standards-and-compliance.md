@@ -1,3 +1,9 @@
+---
+layout: default
+title: "10. Standards & Compliance"
+nav_order: 11
+---
+
 # Industry Standards & Compliance
 
 OpenPRoT aligns with specifications from multiple standards bodies:

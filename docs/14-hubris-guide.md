@@ -1,3 +1,9 @@
+---
+layout: default
+title: "14. Hubris OS Guide"
+nav_order: 15
+---
+
 # Hubris OS Guide
 
 Hubris is the primary OS target for OpenPRoT. This guide covers its architecture, how tasks work, and how to write OpenPRoT services on Hubris.

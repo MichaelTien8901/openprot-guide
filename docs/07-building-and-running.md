@@ -1,3 +1,9 @@
+---
+layout: default
+title: "7. Building & Running"
+nav_order: 8
+---
+
 # Building & Running
 
 ## 1. Building the Main Project
