@@ -24,6 +24,9 @@
 | 10 | [Standards & Compliance](10-standards-and-compliance.md) | DMTF, TCG, NIST, OCP references |
 | 11 | [Use Cases](11-use-cases.md) | Real-world deployment scenarios |
 | 12 | [Resources](12-resources.md) | Links, references, and license |
+| 13 | [Code Examples](13-code-examples.md) | Real code from the repositories |
+| 14 | [Hubris OS Guide](14-hubris-guide.md) | Architecture, tasks, IPC, Idol IDL, tutorial |
+| 15 | [Tock OS Guide](15-tock-guide.md) | Architecture, capsules, processes, comparison |
 
 ---
 

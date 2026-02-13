@@ -24,7 +24,7 @@ OpenPRoT main repositories use **Apache License 2.0**. The Hubris fork uses **Mo
 
 ---
 
-[Prev: Use Cases](11-use-cases.md) | [Back to Guide Home](README.md)
+[Prev: Use Cases](11-use-cases.md) | [Next: Code Examples](13-code-examples.md)
 
 ---
 
