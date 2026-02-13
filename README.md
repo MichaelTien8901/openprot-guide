@@ -14,19 +14,19 @@ OpenPRoT is a vendor-neutral, open-source firmware stack for Platform Root of Tr
 
 ```mermaid
 graph TD
-    subgraph Services
+    subgraph Services [" Services "]
         ATT["Attestation<br/>(SPDM)"]
         FWU["Firmware Update<br/>(PLDM)"]
         TEL["Telemetry"]
     end
 
-    subgraph Protocols
+    subgraph Protocols [" Protocols "]
         SPDM["SPDM<br/>Security & Auth"]
         PLDM["PLDM<br/>FW & Monitoring"]
         MCTP["MCTP<br/>Transport"]
     end
 
-    subgraph Platform
+    subgraph Platform [" Platform "]
         HAL["OpenPRoT HAL Traits<br/>(digest, ecdsa, cipher, mac, i2c, gpio)"]
         HUB["Hubris OS"]
         TOCK["Tock OS"]
@@ -34,7 +34,7 @@ graph TD
         RC["RustCrypto<br/>(software)"]
     end
 
-    subgraph Hardware
+    subgraph Hardware [" Hardware "]
         ASP["ASPEED AST1060<br/>ARM Cortex-M4F"]
         HACE["HACE Crypto<br/>Engine"]
         SPI["SPI / I2C / UART"]
@@ -68,6 +68,11 @@ graph TD
     style ASP fill:#a05050,color:#fff
     style HACE fill:#a05050,color:#fff
     style SPI fill:#a05050,color:#fff
+
+    style Services fill:#1a2a1a,stroke:#509060,color:#8a8a8a
+    style Protocols fill:#1a2030,stroke:#4a70a0,color:#8a8a8a
+    style Platform fill:#2a2020,stroke:#a09825,color:#8a8a8a
+    style Hardware fill:#2a1a1a,stroke:#a05050,color:#8a8a8a
 ```
 
 ## Documentation
