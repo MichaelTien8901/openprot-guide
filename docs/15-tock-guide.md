@@ -274,4 +274,4 @@ pub struct OpenProtCrypto<'a, A: AES128<'a> + AES128Ctr> {
 
 ---
 
-[Prev: Hubris Guide](14-hubris-guide.md) | [Back to Guide Home](README.md)
+[Prev: Hubris Guide](14-hubris-guide.md) | [Back to Guide Home](../index.md)

@@ -53,7 +53,7 @@ graph TD
 **Middleware** — Protocol implementations
 - MCTP for transport, SPDM for security, PLDM for management
 - Each implemented as a standalone `no_std` Rust library
-- See [Protocols](03-protocols/README.md) for implementation details
+- See [Protocols](03-protocols/index.md) for implementation details
 
 **Services** — Business logic (early stage)
 - `services/telemetry` and `services/storage` crates exist as stubs
@@ -96,4 +96,4 @@ openprot/
 
 ---
 
-[Prev: Introduction](01-introduction.md) | [Next: Protocols](03-protocols/README.md)
+[Prev: Introduction](01-introduction.md) | [Next: Protocols](03-protocols/index.md)

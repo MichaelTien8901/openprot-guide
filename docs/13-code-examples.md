@@ -60,7 +60,7 @@ socat -d -d pty,rawer pty,rawer
 
 ## Hubris Tasks
 
-### Hello World with UART ([`hubris/task/helloworld/src/main.rs`](https://github.com/OpenPRoT/hubris/blob/openprot/task/helloworld/src/main.rs))
+### Hello World with UART ([`hubris/task/helloworld/src/main.rs`](https://github.com/OpenPRoT/hubris/blob/master/task/helloworld/src/main.rs))
 
 Minimal Hubris task demonstrating IPC and UART:
 
@@ -88,7 +88,7 @@ fn main() -> ! {
 }
 ```
 
-### HMAC via Digest Server ([`hubris/task/hmac-client/src/main.rs`](https://github.com/OpenPRoT/hubris/blob/openprot/task/hmac-client/src/main.rs))
+### HMAC via Digest Server ([`hubris/task/hmac-client/src/main.rs`](https://github.com/OpenPRoT/hubris/blob/master/task/hmac-client/src/main.rs))
 
 Session-based HMAC through Hubris IPC to the digest server:
 
@@ -109,7 +109,7 @@ fn hmac_sha256(key: &[u8], data: &[u8]) -> [u8; 32] {
 }
 ```
 
-### ECDSA Sign/Verify ([`hubris/task/ecdsa-test/src/main.rs`](https://github.com/OpenPRoT/hubris/blob/openprot/task/ecdsa-test/src/main.rs))
+### ECDSA Sign/Verify ([`hubris/task/ecdsa-test/src/main.rs`](https://github.com/OpenPRoT/hubris/blob/master/task/ecdsa-test/src/main.rs))
 
 P-384 ECDSA via Hubris IPC:
 
@@ -122,7 +122,7 @@ fn verify_signature(pubkey: &[u8; 97], message: &[u8], sig: &[u8; 96]) -> bool {
 }
 ```
 
-### I2C Master/Slave ([`hubris/task/i2c-client/src/main.rs`](https://github.com/OpenPRoT/hubris/blob/openprot/task/i2c-client/src/main.rs))
+### I2C Master/Slave ([`hubris/task/i2c-client/src/main.rs`](https://github.com/OpenPRoT/hubris/blob/master/task/i2c-client/src/main.rs))
 
 I2C communication through the Hubris I2C driver task:
 

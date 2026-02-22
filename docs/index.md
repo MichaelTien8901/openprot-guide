@@ -22,7 +22,7 @@ permalink: /
 |---|-------|-------------|
 | 1 | [Introduction](01-introduction.md) | What is OpenPRoT and why it exists |
 | 2 | [Architecture](02-architecture.md) | Layered architecture and component responsibilities |
-| 3 | [Protocols](03-protocols/README.md) | MCTP, SPDM, and PLDM protocol stack |
+| 3 | [Protocols](03-protocols/index.md) | MCTP, SPDM, and PLDM protocol stack |
 | 4 | [Repository Map](04-repository-map.md) | All repositories and how they relate |
 | 5 | [Hardware Targets](05-hardware-targets.md) | ASPEED chips and peripheral support |
 | 6 | [Getting Started](06-getting-started.md) | Prerequisites and cloning |
@@ -44,7 +44,7 @@ New to OpenPRoT? Follow this recommended reading order:
 
 1. **[Introduction](01-introduction.md)** — Understand what OpenPRoT is
 2. **[Architecture](02-architecture.md)** — See how the layers fit together
-3. **[Protocols](03-protocols/README.md)** — Learn the three core protocols
+3. **[Protocols](03-protocols/index.md)** — Learn the three core protocols
 4. **[Tutorial: Secure Firmware Update](08-tutorial-secure-firmware-update.md)** — See it all in action
 5. **[Getting Started](06-getting-started.md)** — Set up your environment
 

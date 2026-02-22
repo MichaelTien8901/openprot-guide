@@ -85,4 +85,4 @@ let (msg_type, integrity_check, data) = ep.recv(&mut rx_buf)?;
 
 ---
 
-[Prev: Protocols Overview](README.md) | [Next: SPDM](spdm.md)
+[Prev: Protocols Overview](index.md) | [Next: SPDM](spdm.md)
