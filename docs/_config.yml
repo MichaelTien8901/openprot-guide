@@ -65,6 +65,14 @@ defaults:
     values:
       layout: default
 
+# Plugins
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: false
+
 # Build settings
 markdown: kramdown
 kramdown:
